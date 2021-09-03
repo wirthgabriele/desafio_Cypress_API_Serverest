@@ -27,11 +27,11 @@ describe('Desafio', () => {
                         deleteCarrinho.excluir(resLogin.body.authorization).then((resDeleteCarrinho) => {
                             expect(resDeleteCarrinho.status).to.eq(200);
                             expect(resDeleteCarrinho.body.message).to.eq("Registro excluído com sucesso. Estoque dos produtos reabastecido");
-                        })
-                    })
-                })
-            })
-        })
-    })
-})
+                        });
+                    });
+                });
+            });
+        });
+    });
+});
 
