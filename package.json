@@ -1,0 +1,17 @@
+{
+  "name": "desafio_api_automacao_v1",
+  "version": "1.0.0",
+  "description": "Desafio API Automação",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "author": "Gabriele Wirth",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "faker": "^5.5.3",
+    "joi": "^17.4.2"
+  }
+}
